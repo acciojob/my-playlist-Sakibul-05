@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+body {
+        background-color: #cccccc;
+        font-family: sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+      .player_one {
+        /* border: 1px solid grey; */
+        outline: 2px solid grey;
+        border-radius: 5px;
+        background-color: #ffff;
+        padding: 0.2rem 0 0.2rem 0;
+        margin: 0 0.5rem;
+      }
+      .player_one ul {
+        list-style: none;
+        padding-left: 0.5rem;
+      }
+      .player_one ul li {
+        margin: 0.2rem 0 0 0;
+      }
+      .player_one ul li a {
+        text-decoration: none;
+      }
+      h4 {
+        text-align: center;
+        margin-top: 0.5rem;
+      }
+      .player_two {
+        background-color: #fff;
+        border-radius: 5px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        max-width: 450px;
+        padding: 10px;
+        height: auto;
+        outline: 2px solid grey;
+      }
+      video {
+        width: 100%;
+        height: auto;
+      }
+      h5 {
+        margin-top: 0.1rem;
+        text-align: center;
+      }
+      audio{
+        width: 100%;
+        height: 40px;
+      }
